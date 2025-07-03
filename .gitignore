@@ -2,7 +2,7 @@
 *.pt
 !yolov5su.pt
 !runs/detect/train4/weights/best.pt
-
+drone/
 # Ignore video files
 *.mp4
 *.avi
