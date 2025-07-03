@@ -1,0 +1,19 @@
+# Ignore all .pt files except the ones we want
+*.pt
+!yolov5su.pt
+!runs/detect/train4/weights/best.pt
+
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+
+# Ignore all runs except the best.pt
+runs/*
+!runs/detect/
+!runs/detect/train4/
+!runs/detect/train4/weights/
+!runs/detect/train4/weights/best.pt
+
+# Ignore datasets
+Drone_Dataset/
